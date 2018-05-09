@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QQTang CheatEngine", "QQTang CheatEngine\QQTang CheatEngine.vcxproj", "{2EAA7EC3-1E1E-4766-84BB-CAD01EFB678D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib1", "zlib1\zlib1.vcxproj", "{9DA95A37-01AB-4A9E-A5C0-5BAB1EEE24BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2EAA7EC3-1E1E-4766-84BB-CAD01EFB678D} = {2EAA7EC3-1E1E-4766-84BB-CAD01EFB678D}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkinSDK", "SkinSDK", "{860260FD-05E9-45DD-BBDF-D08AE3DE7F22}"
+	ProjectSection(SolutionItems) = preProject
+		SkinSharpByStaticLib\Detours.lib = SkinSharpByStaticLib\Detours.lib
+		SkinSharpByStaticLib\SkinH.h = SkinSharpByStaticLib\SkinH.h
+		SkinSharpByStaticLib\skinh.she = SkinSharpByStaticLib\skinh.she
+		SkinSharpByStaticLib\SkinH_ST.lib = SkinSharpByStaticLib\SkinH_ST.lib
+	EndProjectSection
+EndProject
+Global
+	
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|QQTangCheatEngine = Release|QQTangCheatEngine
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EAA7EC3-1E1E-4766-84BB-CAD01EFB678D}.Release|QQTangCheatEngine.ActiveCfg = Release|Win32
+		{2EAA7EC3-1E1E-4766-84BB-CAD01EFB678D}.Release|QQTangCheatEngine.Deploy.0 = Release|Win32
+		{9DA95A37-01AB-4A9E-A5C0-5BAB1EEE24BF}.Release|QQTangCheatEngine.ActiveCfg = Release|Win32
+		{9DA95A37-01AB-4A9E-A5C0-5BAB1EEE24BF}.Release|QQTangCheatEngine.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E78BE233-3798-4080-8C8F-79DC13242730}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="QQTang">
+      <UniqueIdentifier>{d82ecd4d-9424-42a2-bf8f-f617aaeb6f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{6c14ca09-c868-4e79-b567-45592da97dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Enum">
+      <UniqueIdentifier>{c770c978-6c46-4402-aabc-301dea308ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Client">
+      <UniqueIdentifier>{6a143d64-cd5f-41da-9a05-c8d72dcf41ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Package">
+      <UniqueIdentifier>{e55a99b5-5a90-4e25-bdfa-cbf1b14ba9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Client\GameItem">
+      <UniqueIdentifier>{f9636910-9f6d-4b0b-9264-57dd8da1c319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Client\GameUI">
+      <UniqueIdentifier>{9494ccf6-662c-4195-9986-ea7246ccbef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Client\GFX">
+      <UniqueIdentifier>{1fef0f48-5cee-4eca-aa4c-58e9f19eef4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Client\MessageLayer">
+      <UniqueIdentifier>{846860a4-9ce7-41d9-8914-200a275c9e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Client\Room">
+      <UniqueIdentifier>{de27796c-4e1a-4f9e-855a-582cd38a28a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Client\Encoder">
+      <UniqueIdentifier>{c9115326-7366-4644-b5e4-0ebd67c05f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Client\Section">
+      <UniqueIdentifier>{845793c1-90a0-4113-a7f9-8a7dfc523d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QQTang\Call">
+      <UniqueIdentifier>{cea7ec94-de2e-4afa-83a6-118640d52724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PythonCode">
+      <UniqueIdentifier>{039d2b12-a5ee-458f-ab4b-aab99755919d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Maple.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="EncodeMember.hpp">
+      <Filter>QQTang\Client\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="QQTEncoder.hpp">
+      <Filter>QQTang\Client\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.hpp">
+      <Filter>QQTang\Client\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="QQTangEnum.hpp">
+      <Filter>QQTang\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="QQTangPackage.hpp">
+      <Filter>QQTang\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="QQTangClient.hpp">
+      <Filter>QQTang\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBomb.hpp">
+      <Filter>QQTang\Client\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBox.hpp">
+      <Filter>QQTang\Client\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFloor.hpp">
+      <Filter>QQTang\Client\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameItem.hpp">
+      <Filter>QQTang\Client\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.hpp">
+      <Filter>QQTang\Client\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCItem.hpp">
+      <Filter>QQTang\Client\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>QQTang\Client\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="QQTSection.hpp">
+      <Filter>QQTang\Client\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomInfo.hpp">
+      <Filter>QQTang\Client\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageLayer.hpp">
+      <Filter>QQTang\Client\MessageLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.hpp">
+      <Filter>QQTang\Client\MessageLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.hpp">
+      <Filter>QQTang\Client\MessageLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="QQTangCheatEngine.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="CCall.hpp">
+      <Filter>QQTang\Call</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.hPP">
+      <Filter>QQTang\Client\GameUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PythonCode\levelCFG.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiConst.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiFunc.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiGame.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiLogin.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiLogo.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiMain.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiRoom.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiSelRoom.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiSelSect.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiShop.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiTemplate.py">
+      <Filter>PythonCode</Filter>
+    </None>
+    <None Include="PythonCode\uiWeb.py">
+      <Filter>PythonCode</Filter>
+    </None>
+  </ItemGroup>
+</Project>
